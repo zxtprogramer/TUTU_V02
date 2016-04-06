@@ -96,7 +96,7 @@ function uploadPic(){
 
         $snapBigPath=$dataPath . "User_" . $userID . "/AlbumSnapBig_" . $picAlbumID . "/". $filename . ".jpg";
         $snapSmallPath=$dataPath . "User_" . $userID . "/AlbumSnapSmall_" . $picAlbumID . "/". $filename . ".jpg";
-        $cmd="convert -resize 200x200 " . $snapTmp . " " . $snapBigPath;
+        $cmd="convert -resize 1024x1024 " . $snapTmp . " " . $snapBigPath;
         system($cmd);
         $cmd="convert -resize 60x60 " . $snapTmp . " " . $snapSmallPath;
         system($cmd);
