@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+body{
+	background:#eee;
+}
+.HomeMain{
+	background:#eee;
+    max-width:800px;
+}
+
+.UserTitle{
+	height:60px;
+	line-height:60px;
+	background:#fff;
+}
+
+.AlbumHr{
+    height:1px;
+    border:none;
+    border-top:1px dashed #ddd;
+    margin:5px;
+}
+
+.AlbumTitle{
+	background:#fff;
+	padding:0px 10px 0px 10px;
+}
+
+.AlbumNumInfo{
+	background:#fff;
+	padding:5px;
+}
+
+
+.AlbumSpace{
+	height:20px;
+	line-height:30px;
+	background:#eee;
+	padding:5px;
+}
+
+.AlbumSpaceWhite{
+	height:30px;
+	line-height:30px;
+	background:#fff;
+	padding:5px;
+}
+
+.UserFaceImg{
+	width:40px;
+	height:40px;
+	border:0px;
+	border-radius:5px;
+	margin:5px;
+}
+
+.AlbumTimeLabel{
+	color:grey;
+    right:10px;
+    position:absolute;
+}

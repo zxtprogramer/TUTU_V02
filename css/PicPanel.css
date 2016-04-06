@@ -1,0 +1,92 @@
+.PicPanelDiv{
+    width:100%;
+    background:#fff;
+    top:0px;
+    bottom:100px;
+    right:auto;
+    left:auto;
+    border:3px solid #ccc;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    z-index:1000;
+    border-radius:0px;
+    position:absolute;
+    display:none;
+}
+
+
+.PicPanelCloseDiv{
+	position:fixed;
+	right:5px;
+	top:5px;
+	width:50px;
+	height:50px;
+	z-index:1001;
+	opacity:0.9;
+}
+
+
+.PicPanelImg{
+}
+
+.PicPanelVideo{
+    width:100%;
+    position:absolute:
+}
+
+
+.PicUserTitle{
+    height:60px;
+    line-height:60px;
+    background:#fff;
+}
+
+.UserFaceImg{
+    width:40px;
+    height:40px;
+    border:0px;
+    border-radius:5px;
+    margin:5px;
+}
+
+.PicTimeLabel{
+    color:grey;
+    right:10px;
+    position:absolute;
+}
+
+.PicTitle{
+    background:#fff;
+    padding:0px 10px 0px 10px;
+}
+
+.PicNumInfo{
+    background:#fff;
+    padding:5px;
+}
+
+.PicHr{
+    height:1px;
+    border:none;
+    border-top:1px dashed #ddd;
+    margin:5px;
+}
+
+
+.PicPanelCmtUserName{
+  color:#00b;
+  font-size:10px;
+  font-weight:bold;
+}
+
+.PicPanelCmtTime{
+  color:#aaa;
+  font-size:8px;
+}
+
+.PicPanelCmtStr{
+  color:#000;
+  font-size:12px;
+}
+
+

@@ -1,0 +1,17 @@
+<?php
+  require("../dbase/dbFunction.php");
+  if(isset($_POST['submitLogin'])){
+      session_start();
+      $email=$_POST['Email'];
+      $password=$_POST['Password'];
+      $rnd=$_SESSION['LoginRnd'];
+      $info=checkLogin($email,$password,$rnd);
+      if($info){
+		  $_SESSION['UserID']=$info['UserID'];
+		  $_SESSION['UserName']=$info['UserName'];
+		  $_SESSION['UserEmail']=$info['Email'];
+		  $_SESSION['AlbumLimitNum']=$info['AlbumLimitNum'];
+		  $_SESSION['PicLimitNum']=$info['PicLimitNum'];
+	  }
+  }
+?>

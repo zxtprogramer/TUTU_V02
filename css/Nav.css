@@ -1,0 +1,22 @@
+.MyNav{
+	position:fixed;
+	width:100%;
+	height:40px;	
+	left:0px;
+	bottom:0px;
+	background-color:#fff;
+	z-index:1000;
+    border:1px solid #ccc;
+}
+
+.NavButton{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	width:20%;
+	float:left;
+    background:#d3e9dd;
+    border:0px solid #eee;
+    color:#064a7f;
+    font-size:12px;
+}
